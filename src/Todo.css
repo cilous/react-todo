@@ -1,0 +1,217 @@
+.main {
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: #ffffff;
+}
+
+
+input.input-head {
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+}
+
+button.submit {
+    font-size: 16px;
+    color: white;
+    background-color: #0066ff;
+    border: 2px solid #0066FF;
+    width: 76px;
+
+}
+
+form button.submit-disabled {
+    font-size: 16px;
+    color: white;
+    background-color: #999999;
+    border: 2px solid #999999;
+    width: 76px;
+}
+
+
+form button.submit:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+button.advance {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #016572;
+    color: white;
+    border: 2px solid #016572;
+    width: 500px;
+}
+
+button.advance:hover {
+    background-color: #008799d3;
+    border: 2px solid #008799d3;
+    cursor: pointer;
+}
+
+button.submit-advance {
+    font-size: 16px;
+    color: white;
+    background-color: #0066ff;
+    border: 2px solid #0066FF;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 50px;
+}
+
+form {
+    background-color: #008799;
+}
+
+
+
+div.collapse-hide {
+    display: none;
+}
+
+div.collapse-show {
+    display: flex; 
+}
+
+ul.form-advance {
+    padding-left: 10px;
+}
+
+ul.form-advance li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 480px;
+    margin-bottom: 10px;
+}
+
+ul.form-advance li label {
+    color: white;
+    flex: 1 0 120px;
+    max-width: 100px;
+}
+
+ul.form-advance li input,
+ul.form-advance li textarea{
+    flex: 1 0 220px;
+}
+
+.theList {
+    padding: 0;
+}
+
+.theList li {
+    color: rgb(37, 37, 37);
+    background-color:rgba(255, 255, 255);
+    padding: 15px;
+    list-style: none;
+    transition: backgroud-color .2s ease-out;
+}
+
+.theList li:hover {
+    background-color :rgba(63, 63, 63, 0.8);
+}
+
+.theList li.done label {
+    color: #EBEAEA;
+    text-decoration: line-through;
+}
+
+.theList li label {
+    margin-left: 15px;
+}
+
+
+.theList li button.delete {
+    padding: 0px;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+}
+
+.content-ul {
+    padding:0px;
+}
+
+.content ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 480px;
+    margin: 0;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.check-box {
+    margin: 0px;
+}
+
+.content ul li input.check-box {
+    color: white;
+    flex: 1 0 50px;
+    max-width: 50px;
+}
+
+
+.content ul li input.edit-title {
+    flex: 1 0 auto;
+}
+
+.content ul li textarea.edit-textarea,
+.content ul li input.edit-date {
+    flex: 1 0 auto;
+    margin-left: 50px;
+}
+
+.content ul li button.btn-save {
+    margin-left: 125px;
+    color:white;
+    background-color: rgb(16, 99, 0);
+    border:0px;
+    padding: 5px;
+}
+
+.content ul li button.btn-save:hover {
+    
+    background-color: rgb(27, 165, 0);
+}
+
+.content ul li button.btn-save:disabled {
+    background-color: rgb(80, 80, 80);
+}
+.content ul li button.btn-delete {
+    margin-left: 125px;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    background-color: rgb(145, 5, 0);
+}
+
+.content ul li button.btn-delete:hover {
+    background-color: rgb(245, 8, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
